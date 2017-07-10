@@ -38,7 +38,7 @@
 
 .main-footer {
   margin-top: 65px;
-  background-image: url(../../src/img/footer.jpg);
+  background-image: url(../img/footer.jpg);
 }
 .footer-contacts {
   float: left;
@@ -87,27 +87,27 @@
   font-size: 0;
 }
 .social-btn-vk {
-  background: url(../../src/img/vk.png) no-repeat center #000;
+  background: url(../img/vk.png) no-repeat center #000;
 }
 .social-btn-fb {
-  background: url(../../src/img/facebook.png) no-repeat center #000;
+  background: url(../img/facebook.png) no-repeat center #000;
 }
 .social-btn-inst {
-  background: url(../../src/img/inst.png) no-repeat center #000;
+  background: url(../img/inst.png) no-repeat center #000;
 }
 .social-btn-vk:hover {
   background-color: #fff;
-  background: url(../../src/img/vk2.png) no-repeat center #fff;
+  background: url(../img/vk2.png) no-repeat center #fff;
 }
 .social-btn-fb:hover {
   background-color: #fff;
   transition: 0.2s;
-  background: url(../../src/img/fb2.png) no-repeat center #fff;
+  background: url(../img/fb2.png) no-repeat center #fff;
 }
 .social-btn-inst:hover {
   background-color: #fff;
   transition: 0.2s;
-  background: url(../../src/img/inst.2.png) no-repeat center #fff;
+  background: url(../img/inst.2.png) no-repeat center #fff;
 }
 
 .main-header {
@@ -167,7 +167,7 @@
   position: absolute;
   top: 28px;
   left: 20px;
-  background-image: url(../../src/img/login.png);
+  background-image: url(../img/login.png);
   opacity: 0.3;
 }
 .login:hover::before {
@@ -182,7 +182,7 @@
 
 .index-content {
   padding: 50px 80px;
-  background-image: url(../../src/img/content-bg.jpg);
+  background-image: url(../img/content-bg.jpg);
   background-color: #fff;
   color: #000;
   margin-bottom: 35px;
@@ -338,7 +338,7 @@
 }
 
 body {
-  background: #000000 url(../../src/img/bgi.png) no-repeat center top;
+  background: #000000 url(../img/bgi.png) no-repeat center top;
   background-size: 2670px auto;
   min-width: 960px;
   font-family: 'PT Sans Narrow', 'Arial', sans-serif;
@@ -419,7 +419,7 @@ input:hover {
 .modal-content {
   width: 300px;
   padding: 50px 80px;
-  background: url("../img/modal-bg.jpg") #fff;
+  background: url(../img/modal-bg.jpg) #fff;
   position: absolute;
   top: 120px;
   left: 50%;
@@ -478,7 +478,8 @@ input:hover {
 input.user-icon {
   background-image: url('../img/login-modal.png');
   background-repeat: no-repeat;
-  background-position: 100% 0;
+  background-position: 95% 50%;
+  margin-right: 10px;
 }
 .pass-icon {
   width: 276px;
@@ -539,7 +540,7 @@ input.user-icon {
 .modal-content-map {
   width: 766px;
   height: 561px;
-  background: #fff url(../../src/img/map.jpg);
+  background: #fff url(../img/map.jpg);
   background-size: 766px auto;
   position: fixed;
   top: 0;
@@ -702,7 +703,7 @@ input.user-icon {
 }
 
 .price-main {
-  background: #000 url(../../src/img/price-bg.jpg);
+  background: #000 url(../img/price-bg.jpg);
   background-size: auto;
   min-width: 960px;
   font-family: 'PT Sans Narrow', 'Arial', sans-serif;
@@ -857,7 +858,7 @@ input.user-icon {
 }
 
 .shop-main {
-  background: #000 url(../../src/img/price-bg.jpg);
+  background: #000 url(../img/price-bg.jpg);
   background-size: auto;
   min-width: 960px;
   font-family: 'PT Sans Narrow', 'Arial', sans-serif;
